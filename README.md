@@ -8,6 +8,7 @@ In the `libsvm` folder, I put two files: `svm.h` and `svm.c`. The source of this
 
 ### Python libraries used
 `cvxopt`: for Quadratic Programming
+
 `scipy`: a stack of libraries containing `numpy`, `matplotlib`, `sklearn`, ...
 
 
