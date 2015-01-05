@@ -4,7 +4,7 @@ This repository contains my code for the assignments in the '[Machine Learning T
 
 
 ### LibSVM
-In the `libsvm` folder, I put two files: `svm.h` and `svm.o`. The source of this library can be found [here](https://github.com/cjlin1/libsvm). I always put these two files along with my C++ code files and `#include "svm.h"` to use the library.
+In the `libsvm` folder, I put two files: `svm.h` and `svm.c`. The source of this library can be found [here](https://github.com/cjlin1/libsvm). I always put these two files along with my C++ code files and `#include "svm.h"` to use the library.
 
 ### Python libraries used
 `cvxopt`: for Quadratic Programming
