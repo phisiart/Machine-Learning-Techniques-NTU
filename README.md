@@ -1,13 +1,14 @@
 ## Machine Learning Techniques - TaiwanU
----
+
 This repository contains my code for the assignments in the '[Machine Learning Techniques](https://www.coursera.org/course/ntumltwo)' course from National Taiwan University on [Coursera](https://www.coursera.org/).
 
 
 ### LibSVM
-In the `libsvm` folder, I put two files: `svm.h` and `svm.o`. The source of this library can be found [here](https://github.com/cjlin1/libsvm). I always put these two files along with my C++ code files and `#include "svm.h"` to use the library.
+In the `libsvm` folder, I put two files: `svm.h` and `svm.c`. The source of this library can be found [here](https://github.com/cjlin1/libsvm). I always put these two files along with my C++ code files and `#include "svm.h"` to use the library.
 
 ### Python libraries used
 `cvxopt`: for Quadratic Programming
+
 `scipy`: a stack of libraries containing `numpy`, `matplotlib`, `sklearn`, ...
 
 
@@ -69,3 +70,4 @@ Node: in `/hw2q19/`, use
     python hw2q19.py
     
 will run the regression and print out the answers to questions 19, 20.
+
