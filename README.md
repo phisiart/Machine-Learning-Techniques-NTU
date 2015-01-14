@@ -46,3 +46,26 @@ Note: in `/hw1q15_py/`, use
 	python hw1q15.py
 
 will run all questions 15, 16, 18, 19, 20.
+
+## Homework 2
+### Question 12 - 18
+`/hw2q12/hw2q12.py`: an AdaBoost with stumps implemented
+
+`numpy`, `matplotlib` used
+
+Note: in `/hw2q12/`, simply use
+
+    python hw2q12.py
+    
+will run the AdaBoost and print out the answers to all questions 12 - 18. The script will also draw the decision boundary.
+
+### Question 19, 20
+`/hw2q19/hw2q19.py`: a kernel ridge regression implemented
+
+`numpy` used
+
+Node: in `/hw2q19/`, use
+
+    python hw2q19.py
+    
+will run the regression and print out the answers to questions 19, 20.
