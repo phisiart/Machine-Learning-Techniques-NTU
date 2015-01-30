@@ -65,9 +65,33 @@ will run the AdaBoost and print out the answers to all questions 12 - 18. The sc
 
 `numpy` used
 
-Node: in `/hw2q19/`, use
+Note: in `/hw2q19/`, use
 
     python hw2q19.py
     
 will run the regression and print out the answers to questions 19, 20.
 
+## Homework 3
+`/hw3q13/hw3q13.py`: solutions to all questions in homework 3 in this file.
+
+`numpy`, `matplotlib` used
+
+Note: in `/hw3q13/`, use
+
+    python hw3q13.py
+
+will run all solutions to questions 13 - 20.
+
+### Question 13 - 15
+`hw3q13_14_15()`: trains a hand-written decision tree; dumps the branches; prints out E_in and E_out; plots the trained decision boundary.
+
+### Question 16
+`hw3q16()`: trains a lot of decision trees using bagging; computes the average E_in.
+
+note that I only trained 1000 trees instead of 30000, since they're already enough to get a quite stable average E_in
+
+### Question 17, 18
+`hw3q17_18()`: trains a lot of random forests with C&RT's; computes the average E_in and E_out; plots the first trained random forest as an example.
+
+### Question 19, 20
+`hw3q19_20`: trains a lot of random forests with pruned trees; computes the average E_in and E_out; plots the first trained random forest as an example.
