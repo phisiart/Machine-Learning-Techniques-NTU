@@ -95,3 +95,23 @@ note that I only trained 1000 trees instead of 30000, since they're already enou
 
 ### Question 19, 20
 `hw3q19_20`: trains a lot of random forests with pruned trees; computes the average E_in and E_out; plots the first trained random forest as an example.
+
+## Homework 4
+### Question 11 - 14
+`hw4q11/hw4q11_handwritten.py`: a handwritten neural network (nnets are so complicated!).
+
+Node: in `/hw4q11/`, use
+
+    python hw4q11_handwritten.py
+    
+will run all solutions to questions 11 - 14. Be careful, my neural networks are super slow. So, when choosing parameters, you might want to change `nexperiments` to some smaller value first to eliminate some clearly bad candidates.
+
+### Question 15 - 18
+`hw4q15/hw4q15.py`: a handwritten KNN
+
+### Question 19, 20
+`hw4q19/hw4q19_handwritten.py`: a handwritten kmeans
+
+`hw4q19/hw4q19_sklearn.py`: kmeans using sklearn
+
+Both should be fine.
